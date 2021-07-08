@@ -11,3 +11,5 @@ TC 01 Table
     Set Selenium Implicit Wait      30s
     ${name}     Get Text        //td[normalize-space()='Airi Satou']
     Log To Console      ${name}
+    ${entries}      Get Text    //div[@id='example_info']
+    Log To Console      ${entries}
