@@ -11,5 +11,5 @@ TC 02
     Set Selenium Implicit Wait      30s
     Click Element       //i[@id='i-icon-profile']
     CLick Element       //li[@id='signInLink']
-    Select Frame       /html/body/div[6]/div/div[2]/div/div/div[3]/iframe
+    Select Frame
     Input Text      //input[@id='mobileNoInp']      787878
